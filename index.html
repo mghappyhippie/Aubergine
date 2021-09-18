@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Aubergine</title>
+    <link href="./style.css" rel="stylesheet">
+  </head>
+ </body>
+    <div id="searchContainer">
+        <input type="text" id="searchInput" placeholder="Search" oninput="searchInputChange();">
+        <button id="clearButton" onclick="clearButtonPress();">Clear</button>
+        <hr>
+    </div>    
+    <div id="searchResults"></div>
+    <div id="detailedView">
+        <img id="detailedPicture">
+        <p id="detailedName"></p>
+        <p id="detailedId"></p>
+        <p id="detailedDescription"></p>
+        <a id="detailedLink" target="_blank"></a>
+    </div>
+    <p id="emptyResultMessage">No result selected</p>
+  </body>
+  <script src="./script.js"></script>
+</html>
