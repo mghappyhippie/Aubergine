@@ -1,5 +1,5 @@
 function searchInputChange() {   
-    const lesterEndpoint = "http://127.0.0.1:5000/search?"; 
+    const lesterEndpoint = "https://lester-common.herokuapp.com/search?"; 
     const detailedViewElement = document.getElementById("detailedView");
     const searchInput = document.getElementById("searchInput");
     const searchResultsDiv = document.getElementById("searchResults");
